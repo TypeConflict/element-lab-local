@@ -1,0 +1,13 @@
+{
+  "name": "element-lab-share",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "test": "node --test tests.mjs"
+  },
+  "description": "本機元素合成與抽象概念萃取遊戲，支援 LLM 與 SQLite 存檔",
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

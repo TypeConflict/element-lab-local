@@ -1,0 +1,22 @@
+# Private configuration (only the blank template is shared)
+.env
+.env.*
+!.env.example
+
+# Personal game progress and backups
+data/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+backups/
+
+# Local tooling and deployment identity
+node_modules/
+.openai/
+.sites-runtime/
+.codex/
+.agents/
+.DS_Store
+*.log
+coverage/
